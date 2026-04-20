@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eaeaea;
+    padding: 30px;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.gym-name {
+    background: #2cff2c;
+    display: inline-block;
+    padding: 8px 20px;
+    font-weight: bold;
+    margin: 10px auto 30px;
+    display: block;
+    width: fit-content;
+}
+
+label {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 15px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 6px 4px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.radio {
+    display: flex;
+    gap: 30px;
+    margin-top: 8px;
+}
+
+.legal {
+    font-size: 11px;
+    margin: 25px 0;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.sign div {
+    width: 100%;
+}
+
+.thanks {
+    color: #2cff2c;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+
+/* Flechas */
+.arrows {
+    position: absolute;
+    display: flex;
+    gap: 8px;
+}
+
+.arrows span {
+    width: 25px;
+    height: 25px;
+    border-right: 6px solid #2cff2c;
+    border-top: 6px solid #2cff2c;
+    transform: rotate(45deg);
+}
+
+.arrows.top {
+    top: 20px;
+    left: 20px;
+}
+
+.arrows.bottom {
+    bottom: 90px;
+    right: 40px;
+    transform: rotate(180deg);
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    background: #2cff2c;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

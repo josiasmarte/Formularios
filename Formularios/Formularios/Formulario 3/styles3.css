@@ -1,0 +1,140 @@
+body {
+    background: #dcdcdc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 40px auto;
+    background: #f5f5f5;
+    display: flex;
+    position: relative;
+}
+
+.left-bar {
+    width: 40px;
+    background: #e6a678;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-bar span {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.right-bar {
+    width: 25px;
+    background: #e6a678;
+}
+
+.form-content {
+    flex: 1;
+    padding: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 38px;
+    color: #3c5f66;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.subtitle {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.mini {
+    font-size: 12px;
+    color: #666;
+}
+
+.logo-box {
+    border: 2px dashed #3c5f66;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #3c5f66;
+}
+
+.section-title {
+    margin-top: 30px;
+    background: #3c5f66;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+form label {
+    display: block;
+    margin-top: 18px;
+    font-size: 12px;
+    color: #3c5f66;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    background: #efe4c6;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.col {
+    flex: 1;
+}
+
+.sexo {
+    margin-top: 8px;
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #e6a678;
+    margin: 25px 0;
+}
+
+.nota {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #3c5f66;
+    font-style: italic;
+}
+
+.firma {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.firma .linea {
+    width: 200px;
+    border-bottom: 2px solid #3c5f66;
+    margin-left: auto;
+}
+
+.firma span {
+    font-size: 12px;
+    color: #3c5f66;
+}
